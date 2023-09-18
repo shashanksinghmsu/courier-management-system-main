@@ -1,0 +1,31 @@
+/       general.views.home      home
+/about-us/      general.views.about     about
+/contact/       general.views.contact   contact
+/courier/       courier.views.create_parcle     create_parcle   login_required
+/courier/<int:courier_id>/      courier.views.courier
+/courier/cancel/<int:courier_id>/       courier.views.cancel_parcle
+/courier/conform/<int:courier_id>/      courier.views.conform_parcle    conform_parcle
+/courier/detail/<int:courier_id>/       courier.views.detail_parcle     courier_detail
+/district/      general.views.districts districts
+/email/ general.views.available_email   available_email
+/forgot-password/       general.views.forgot_password   forgot_password
+/forgot-password/<str:username>/<str:otp>       general.views.update_password   update_password
+/home/  general.views.home      home
+/login/ general.views.login_method      login
+/logout/        general.views.logout_method     logout
+/media/<path>   django.views.static.serve
+/pincode/       general.views.pincodes  pincodes
+/signup/        general.views.signup    signup
+/update/city/   user.update_profile.views.city  update_city
+/update/district/       user.update_profile.views.district      update_district
+/update/email/  user.update_profile.views.email update_email
+/update/gender/ user.update_profile.views.gender        update_gender
+/update/house_no/       user.update_profile.views.house_number  update_house_no
+/update/mobile/ user.update_profile.views.mobile        update_mobile
+/update/name/   user.update_profile.views.name  update_name
+/update/pincode/        user.update_profile.views.pincode       update_pincode
+/update/state/  user.update_profile.views.state update_state
+/update/street/ user.update_profile.views.street        update_street
+/update/username/       user.update_profile.views.username      update_username
+/user/  user.views.user user
+/username/      general.views.available_username        available_username

@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="/static/CSS/general/about.css">
+{% endblock %}
+
+{% block content %}
+<h1 class="d-none">ABOUT US</h1>
+<div class="about-block">
+    <div class="about-heading">
+
+        <img class="about-img" src="/static/images/logo/logo.png" alt="ARCODERS">
+        <h2>About Us</h2>
+    </div>
+    <hr class="about-hr">
+
+    <p class="about-data">
+        Courier Management is the function of applying processes to ensure goods are effectively and efficiently
+        transferred from one location to the next.
+    </p>
+    <p class="about-data">
+
+        Sometimes called dispatch or fleet management, it answers the question, “How do we get this item from point A to
+        point B?”
+
+
+
+    </p>
+    <p class="about-data">
+        The online courier tracking system will help the customers to retrieve the current status of their consignments.
+        No software installation will be required to track the shipment. Any system connected with internet will be
+        enough to track the shipment.
+    </p>
+    <hr class="about-hr mb-3">
+    <p class="about-founded my-0">
+    <details style="text-align: left;">
+
+        <summary>
+        Founded By
+        </summary>
+        <ul>
+            <p>Shashank Singh</p>
+            <p>Dev Chauhan</p>
+        </ul>
+    </details>
+    </p>
+</div>
+{% endblock %}
+
+{% block js %}
+{% endblock %}
